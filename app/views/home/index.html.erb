@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MeuPiaui</title>
+</head>
+
+<body>
+  <h1>Meu Piauí Notícias</h1>
+  <ul>
+  <% @news.each do |noticia| %>
+    <li><%= noticia.title %></li>
+  <% end %>
+  </ul>
+
+</body>
+
+</html>
